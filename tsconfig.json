@@ -1,0 +1,396 @@
+{
+  "name": "form",
+  "attributes": [
+    "action",
+    "method"
+  ],
+  "values": [
+    "URL",
+    "post"
+  ],
+  "children": [
+    {
+      "name": "h1",
+      "attributes": [
+        "align"
+      ],
+      "values": [
+        "center"
+      ],
+      "content": "Заявка на экскурсионный полет на Марс"
+    },
+    {
+      "name": "label",
+      "attributes": [
+        "for"
+      ],
+      "values": [
+        "last_name"
+      ],
+      "content": "Фамилия "
+    },
+    {
+      "name": "input",
+      "attributes": [
+        "type",
+        "id"
+      ],
+      "values": [
+        "text",
+        "last_name"
+      ],
+      "content": ""
+    },
+    {
+      "name": "label",
+      "attributes": [
+        "for"
+      ],
+      "values": [
+        "first_name"
+      ],
+      "content": "Имя "
+    },
+    {
+      "name": "input",
+      "attributes": [
+        "type",
+        "id"
+      ],
+      "values": [
+        "text",
+        "first_name"
+      ],
+      "content": ""
+    },
+    {
+      "name": "label",
+      "attributes": [
+        "for"
+      ],
+      "values": [
+        "patronymic"
+      ],
+      "content": "Отчество "
+    },
+    {
+      "name": "input",
+      "attributes": [
+        "type",
+        "id"
+      ],
+      "values": [
+        "text",
+        "patronymic"
+      ],
+      "content": ""
+    },
+    {
+      "name": "label",
+      "attributes": [
+        "for"
+      ],
+      "values": [
+        "last_name_lat"
+      ],
+      "content": "Фамилия латиницей"
+    },
+    {
+      "name": "input",
+      "attributes": [
+        "type",
+        "id"
+      ],
+      "values": [
+        "text",
+        "last_name_lat"
+      ],
+      "content": ""
+    },
+    {
+      "name": "label",
+      "attributes": [
+        "for"
+      ],
+      "values": [
+        "first_name_lat"
+      ],
+      "content": "Имя латиницей "
+    },
+    {
+      "name": "input",
+      "attributes": [
+        "type",
+        "id"
+      ],
+      "values": [
+        "text",
+        "first_name_lat"
+      ],
+      "content": ""
+    },
+    {
+      "name": "label",
+      "attributes": [
+        "for"
+      ],
+      "values": [
+        "birth"
+      ],
+      "content": "Дата рождения "
+    },
+    {
+      "name": "input",
+      "attributes": [
+        "type",
+        "id",
+        "value",
+        "min",
+        "max"
+      ],
+      "values": [
+        "date",
+        "birth",
+        "1983-11-03",
+        "1950-01-01",
+        "2003.12.31"
+      ],
+      "content": ""
+    },
+    {
+      "name": "label",
+      "attributes": [
+        "for"
+      ],
+      "values": [
+        "last_name"
+      ],
+      "content": "Семейное положение "
+    },
+    {
+      "name": "select",
+      "attributes": [
+        "size"
+      ],
+      "values": [
+        "1"
+      ],
+      "content": "",
+      "children": [{
+        "name": "option",
+        "attributes": [
+          "value"
+        ],
+        "value": [
+          "nothing"
+        ],
+        "content": ""
+      },
+        {
+          "name": "option",
+          "attributes": [
+            "value"
+          ],
+          "value": [
+            "married"
+          ],
+          "content": "Женат"
+        },
+        {
+          "name": "option",
+          "attributes": [
+            "value"
+          ],
+          "value": [
+            "not_married"
+          ],
+          "content": "Не женат"
+        },
+        {
+          "name": "option",
+          "attributes": [
+            "value"
+          ],
+          "value": [
+            "married"
+          ],
+          "content": "Замужем"
+        },
+        {
+          "name": "option",
+          "attributes": [
+            "value"
+          ],
+          "value": [
+            "not_married"
+          ],
+          "content": "Не замужем"
+        }
+      ]
+    },
+    {
+      "name": "label",
+      "attributes": [
+        "for"
+      ],
+      "values": [
+        "last_name"
+      ],
+      "content": "Образование "
+    },
+    {
+      "name": "select",
+      "attributes": [
+        "size"
+      ],
+      "values": [
+        "1"
+      ],
+      "content": "",
+      "children": [{
+        "name": "option",
+        "attributes": [
+          "value"
+        ],
+        "value": [
+          "married"
+        ],
+        "content": ""
+      },
+        {
+          "name": "option",
+          "attributes": [
+            "value"
+          ],
+          "value": [
+            "middle"
+          ],
+          "content": "Среднее общее"
+        },
+        {
+          "name": "option",
+          "attributes": [
+            "value"
+          ],
+          "value": [
+            "middle_prof"
+          ],
+          "content": "Среднее профессиональное"
+        },
+        {
+          "name": "option",
+          "attributes": [
+            "value"
+          ],
+          "value": [
+            "incomplete_higher"
+          ],
+          "content": "Незаконченное высшее"
+        },
+        {
+          "name": "option",
+          "attributes": [
+            "value"
+          ],
+          "value": [
+            "higher"
+          ],
+          "content": "Высшее"
+        }
+      ]
+    },
+    {
+      "name": "h3",
+      "attributes": [
+        "align"
+      ],
+      "values": [
+        "center"
+      ],
+      "content": "Контактная информация"
+    },
+    {
+      "name": "label",
+      "attributes": [
+        "for"
+      ],
+      "values": [
+        "phone"
+      ],
+      "content": "Телефон "
+    },
+    {
+      "name": "input",
+      "attributes": [
+        "type",
+        "id",
+        "pattern"
+      ],
+      "values": [
+        "tel",
+        "phone",
+        ""
+      ],
+      "content": ""
+    },
+    {
+      "name": "label",
+      "attributes": [
+        "for"
+      ],
+      "values": [
+        "email"
+      ],
+      "content": [
+        "E-mail "
+      ]
+    },
+    {
+      "name": "input",
+      "attributes": [
+        "type",
+        "id",
+        "pattern"
+      ],
+      "values": [
+        "email",
+        "email",
+        ".+@gmail.com"
+      ],
+      "content": ""
+    },
+    {
+      "name": "input",
+      "attributes": [
+        "type",
+        "id"
+      ],
+      "values": [
+        "checkbox",
+        "agree"
+      ],
+      "content": [
+        ""
+      ]
+    },
+    {
+      "name": "p",
+      "attributes": [
+        "for"
+      ],
+      "values": [
+        "agree"
+      ],
+      "content": "Ставя эту галочку, я подтверждаю, что поставил её в трезвом уме и твердой памяти"
+    },
+    {
+      "name": "button",
+      "attributes": [
+      ],
+      "values": [
+      ],
+      "content": "Полететь на Марс"
+    }
+  ]
+}
+
